@@ -11,15 +11,19 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body{
-    width: 100vw;
-    height: 100vh;
     padding-top: 1.875rem;
 
     background: var(--background);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+    background-position: center top;
 
     font-family:'Poppins', sans-serif;
 
