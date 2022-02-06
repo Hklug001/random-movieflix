@@ -21,7 +21,7 @@ body{
 
     background: var(--background);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-blend-mode: multiply;
     background-position: center top;
 
@@ -133,9 +133,35 @@ header img{
 
 #button-description{
     width: 26rem;
-    margin-top: 1.875rem;
+    margin: 1.875rem 0;
 
     text-align: center;
     font-weight: 400;
     color: var(--title);
+}
+
+/*---------------------------------MOBILE----------------------------------*/
+@media (max-width: 650px){
+
+    html{
+        font-size: 87.5%;
+        overflow-y: scroll;
+        background: linear-gradient(37.19deg, #1E46A3 3.83%, #000000 50.5%, #C12A23 85.86%);
+    }
+
+    header{
+        max-width: 22.5rem;
+    }
+
+    .container{
+        max-width: 22.5rem;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #button-description{
+        max-width: 22.5rem;
+    }
 }
