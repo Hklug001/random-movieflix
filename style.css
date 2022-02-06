@@ -79,6 +79,7 @@ header img{
 
 #moviePoster{
     width: 10.7rem;
+    max-height: 15.625rem;
 }
 
 #movieTitle{
@@ -88,12 +89,14 @@ header img{
 
 #movieDescription{
     font-size: 1rem;
+    max-height: 12.5rem;
+
     overflow-y: scroll;
 }
 
-#loading{
-    position: absolute;
-    width: max-content;
+#loading-screen{
+    width:fit-content;
+    height: fit-content;
 }
 
 /*---------------------------------BUTTON----------------------------------*/
